@@ -16,3 +16,4 @@ git clone https://Lui5ito:${GIT_PERSONAL_ACCESS_TOKEN}@github.com/Lui5ito/univer
 
 #cd ..
 #cd doctorthesis/sb_experiments/ub_models/
+chown -R ${USERNAME}:${GROUPNAME} ${HOME}
