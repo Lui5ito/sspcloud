@@ -7,7 +7,7 @@ then
 fi
 
 # On clone les projets suivant
-git clone https://Lui5ito:${GIT_PERSONAL_ACCESS_TOKEN}@github.com/Lui5ito/universalbands.git
+#git clone https://Lui5ito:${GIT_PERSONAL_ACCESS_TOKEN}@github.com/Lui5ito/universalbands.git
 
 git clone https://Lui5ito:${GIT_PERSONAL_ACCESS_TOKEN}@github.com/Lui5ito/doctorthesis.git
 
