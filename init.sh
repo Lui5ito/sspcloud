@@ -7,11 +7,9 @@ then
 fi
 
 # On clone les projets suivant
-export url_ub="https://Lui5ito:${GIT_PERSONAL_ACCESS_TOKEN}@github.com/Lui5ito/universalbands.git"
-git clone ${url_ub}
+git clone https://Lui5ito:${GIT_PERSONAL_ACCESS_TOKEN}@github.com/Lui5ito/universalbands.git
 
-export url_dt="https://Lui5ito:${GIT_PERSONAL_ACCESS_TOKEN}@github.com/Lui5ito/doctorthesis.git"
-git clone ${url_dt}
+git clone https://Lui5ito:${GIT_PERSONAL_ACCESS_TOKEN}@github.com/Lui5ito/doctorthesis.git
 
 cd universalbands
 python -m pip install -e .
